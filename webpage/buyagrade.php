@@ -12,10 +12,10 @@
 			The rough economy, along with recent changes in University of Washington policy, now allow us to offer grades for money.  That's right!  All you need to get a 4.0 in this course is cold, hard, cash.
 		</p>
 		
-		<hr />
-		
+		<hr/>
 		<h2>Give Us Your Money</h2>
-		<form action="http://webster.cs.washington.edu/params.php" method="post" enctype="multipart/form-data">
+
+		<form action="sucker.php" method="post">		
 		<dl>
 			<dt>Name</dt>
 			<dd>
@@ -24,7 +24,7 @@
 			
 			<dt>Section</dt>
 			<dd>
-				<select>
+				<select name="select">
 					<option>Select a section</option>
 					<option>CSE</option>
 					<option>ICE</option>
@@ -36,13 +36,13 @@
 				<input type="text" name="number">
 			</dd>
 			<dd>
-			<input type="radio" name="Visa" value="Visa"> Visa 
-			<input type="radio" name="Master Card" value="Master Card"> Master Card <br>
+			<input type="radio" name="visa" value="visa"> Visa 
+			<input type="radio" name="visa" value="mastercard"> Master Card <br>
 			</dd>
 		</dl>
 		
 		<div>
-			<input type="submit" name="I am a giant sucker." value="I am a giant sucker.">
+			<input type="submit" value="I am a giant sucker.">
 		</div>
 		</form>
 	</body>
